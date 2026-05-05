@@ -4,8 +4,17 @@ Quit with Ctrl+C. No dependencies beyond Python 3 and gcc.
 how to run? 
 
 ```bash
-# run
+# run python3 version :
 python3 liveCOMpiler.py <file name>
+
+
+# run c version
+
+# compile first
+gcc liveCOMpiler.c -o liveCOMpiler 
+
+# run the bin file
+./liveCOMpiler <file name>
 
 # exit with ctrl + c
 ```
